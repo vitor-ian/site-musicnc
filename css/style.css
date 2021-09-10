@@ -1,0 +1,35 @@
+/*===========================AJUSTES PADRÃO===========================*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*===========================AJUSTES PROJETO===========================*/
