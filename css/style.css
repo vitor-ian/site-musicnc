@@ -37,6 +37,7 @@ body{
 header{
     width: 100%;
     height: 100px;
+    background-color: white;
     border-bottom: 2px solid #E6E7E8;
     display: flex;
     align-items: center;
@@ -50,10 +51,148 @@ nav{
     right: 20px;
 }
 
+h1{
+    font-size: 40px;
+}
+
+h2{
+    color: #32323d;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h3{
+    color: #0EA2C7;
+}
+
+h4{
+    color: #32323d;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h5{
+    color: #32323d;
+    font-size: 15px;
+}
+
 /*===========================HEADER===========================*/
 #logo-header{
     height: 60px;
     margin: 20px 20px 20px 40px;
     position: fixed;
     top: 0px;
+}
+
+.btn-princ{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.btn-h-01{
+    color: #121212;
+    border: none;
+}
+
+.btn-h-01:hover{
+    color: #121212;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0EA2C7;
+}
+
+.btn-h-02{
+    color: #0EA2C7;
+    border: 2px solid #0EA2C7;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+.btn-h-02:hover{
+    color: #078AAB;
+    border-color:#078AAB;
+}
+
+.btn-h-03{
+    color: white;
+    background-color: #0EA2C7;
+    border: 2px solid #0EA2C7;
+    border-radius: 50px;
+    padding: 10px 40px;
+}
+
+.btn-h-03:hover{
+    background-color: #078AAB;
+    border-color:#078AAB;
+}
+
+/*===========================BANNER===========================*/
+
+#sec-banner{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-banner{
+    display: flex;
+    align-items: center;
+}
+
+#img-banner{
+    width: 700px;
+    pointer-events: none;
+}
+
+#txt-banner{
+    width: 300px;
+    margin: 10px;
+}
+
+/*===========================FEATURE===========================*/
+
+#sec-feature{
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+#img-feature{
+    height: 450px;
+}
+
+#textos-feacture{
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.cat-feature{
+    width: 250px;
+    margin: 20px 40px 40px 0px;
+}
+
+/*===========================DEVICES===========================*/
+
+#sec-devices{
+    background-color: #0EA2C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons-devices{
+    font-size: 80px;
+    margin: 40px;
+    color: white;
+}
+
+#txt-devices{
+    width: 400px;
+    margin: 40px;
 }
