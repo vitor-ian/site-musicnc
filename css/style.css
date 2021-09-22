@@ -51,6 +51,11 @@ nav{
     right: 20px;
 }
 
+footer{
+    background-color: #32323d;
+    color: #E6E7E8;
+}
+
 h1{
     font-size: 40px;
 }
@@ -76,6 +81,11 @@ h4{
 h5{
     color: #32323d;
     font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h6{
+    color: rgb(230, 230, 230);
 }
 
 /*===========================HEADER===========================*/
@@ -90,6 +100,7 @@ h5{
     font-size: 16px;
     font-weight: bold;
     margin: 0px 10px;
+    cursor: pointer;
 }
 
 .btn-h-01{
@@ -203,4 +214,84 @@ h5{
 
 .color{
     color: white;
+}
+
+/*===========================FORM===========================*/
+
+#sec-forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.ct-txt-form{
+    width: 500px;
+    background-color: none;
+    border-bottom: 2px solid #E6E7E8;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.cx-form{
+    width: 480px;
+    color: #32323d;
+}
+
+#txt-forms{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.color2{
+    color: #0EA2C7;
+}
+
+/*===========================FOOTER===========================*/
+
+.color3{
+    color: #E6E7E8;
+}
+
+.itens-footer{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.itens-b-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px;
+    border-top: 1px solid #E6E7E8;
+}
+
+#logo-footer{
+    width: 200px;
+    margin-left: 48vh;
+    margin-right: 48vh;
+    margin-top: 10px;
+}
+
+.bloco-footer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+
+.btn-footer{
+    color: #E6E7E8;
+    font-size: 14px;
+    padding: 20px 40px;
+    border: 1px solid #E6E7E8;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.btn-footer:hover{
+    background-color: #2c2c35;
 }
