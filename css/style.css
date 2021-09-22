@@ -188,11 +188,19 @@ h5{
 
 #icons-devices{
     font-size: 80px;
-    margin: 40px;
+    margin: 40px 20px;
     color: white;
+}
+
+.icon-dev{
+    margin-right: 20px;
 }
 
 #txt-devices{
     width: 400px;
     margin: 40px;
+}
+
+.color{
+    color: white;
 }
