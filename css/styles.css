@@ -415,3 +415,84 @@ h6{
 .btn-baixar:hover{
     background-color: #1c1c22;
 }
+
+/*===========================PAGINA LOGIN===========================*/
+
+#sec-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../img/banner/background-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#logo-login{
+    width: 200px;
+    margin: 40px;
+}
+
+.color6{
+    color: #EF5466;
+}
+
+.btn-h-06{
+    color: white;
+    background-color: #EF5466;
+    border: 2px solid #EF5466;
+    border-radius: 50px;
+    width: 500px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+
+.btn-h-06:hover{
+    background-color: #da4052;
+    border-color:#da4052;
+}
+
+.btn-secund-2{
+    color: #EF5466;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.cx-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.info-form{
+    margin-top: 40px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color1{
+    color: #32323d;
+}
+
+.cx-inscreva{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+    height: 700px;
+    margin-bottom: 40px;
+}
