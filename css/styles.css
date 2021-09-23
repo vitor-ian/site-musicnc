@@ -520,3 +520,109 @@ h6{
     text-align: center;
     margin: 40px;
 }
+
+#imagem-sobre{
+    width: 100%;
+    margin-top: 40px;
+}
+
+/*===========================PORQUE MUSIC NC===========================*/
+
+#sec-conteudo-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-conteudo-sobre{
+    width: 500px;
+    text-align: center;
+    margin: 40px;
+}
+
+.txt-conteudo-sobre{
+    width: 350px;
+    margin: 20px;
+}
+
+.bl-conteudo-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*===========================ESCUTE OFFLINE===========================*/
+
+#sec-ouca-offline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-sec-sobre{
+    height: 800px;
+}
+
+.esp-esq{
+    margin: 20px 10px;
+}
+
+.esp-botom{
+    margin-bottom: 60px;
+}
+
+/*===========================ALBUM===========================*/
+
+#imagem-album{
+    width: 80%;
+}
+
+#all-img-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*===========================PLAYLIST===========================*/
+
+#sec-playlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#size-playlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    text-align: center;
+}
+
+/*===========================LETRA===========================*/
+
+#sec-letra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-letras{
+    width: 350px;
+    margin: 20px;
+    text-align: right;
+}
+
+/*===========================FAQ===========================*/
+
+#sec-faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px 0 40px 0;
+}
