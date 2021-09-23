@@ -57,7 +57,9 @@ footer{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 h2{
@@ -99,7 +101,7 @@ h6{
 .btn-princ{
     font-size: 16px;
     font-weight: bold;
-    margin: 0px 10px;
+    margin: 10px;
     cursor: pointer;
 }
 
@@ -300,7 +302,7 @@ h6{
 
 /*===========================CONTEUDO PRINCIPAL===========================*/
 #sec-conteudo{
-    padding-top: 280px;
+    padding-top: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -494,4 +496,27 @@ h6{
     width: 600px;
     height: 700px;
     margin-bottom: 40px;
+}
+
+/*===========================PAGINA SOBRE===========================*/
+
+#sec-banner-sobre{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../img/banner/background-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    margin: 40px;
 }
