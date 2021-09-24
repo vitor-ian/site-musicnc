@@ -32,6 +32,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+section{
+    width: 100%;
+}
+
 /*===========================AJUSTES PROJETO===========================*/
 
 header{
