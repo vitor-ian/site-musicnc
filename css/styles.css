@@ -156,7 +156,8 @@ h6{
 }
 
 #img-banner{
-    width: 700px;
+    width: 600px;
+    margin-left: 50px;
     pointer-events: none;
 }
 
