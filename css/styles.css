@@ -178,6 +178,7 @@ h6{
 
 #img-feature{
     height: 450px;
+    pointer-events: none;
 }
 
 #textos-feacture{
@@ -320,6 +321,7 @@ h6{
 #img-conteudo{
     width: 900px;
     padding-top: 10px;
+    pointer-events: none;
 }
 
 .txt-conteudo{
@@ -522,8 +524,15 @@ h6{
     margin: 40px;
 }
 
+#center-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #imagem-sobre{
     width: 100%;
+    max-width: 1580px;
     margin-top: 40px;
 }
 
@@ -577,6 +586,7 @@ h6{
 
 #imagem-album{
     width: 80%;
+    max-width: 1580px;
 }
 
 #all-img-sobre{
@@ -674,6 +684,7 @@ h6{
 #pix{
     width: 250px;
     margin: 0 30px;
+    pointer-events: none;
 }
 
 .box-forma-pagamento{
