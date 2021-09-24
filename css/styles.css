@@ -284,8 +284,8 @@ h6{
 
 .bloco-footer{
     display: flex;
-    align-items: center;
-    justify-content: left;
+    align-items: left;
+    justify-content: top;
     flex-direction: column;
     margin: 0px 40px;
 }
