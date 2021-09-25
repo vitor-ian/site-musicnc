@@ -742,22 +742,12 @@ h6{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
-    background: rgb(0,26,255);
-    background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(0,212,255,1) 100%);
+    background-color: #0EA2C7;
     height: 100vh;
-}
-
-#bar-sup-manutencao{
-    background: none;
-    position: fixed;
-    bottom: 10px;
-    left: 20px;
 }
 
 #logo-manutencao{
     width: 200px;
-    margin: 10px;
 }
 
 .social-manutencao{
@@ -767,5 +757,10 @@ h6{
 }
 
 #sociais-manutencao{
+    margin: 40px;
+}
+
+#img-foguete{
+    width: 500px;
     margin: 40px;
 }
