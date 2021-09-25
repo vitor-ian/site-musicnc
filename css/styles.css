@@ -569,7 +569,7 @@ h6{
 
 .bl-conteudo-sobre{
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
 }
 
